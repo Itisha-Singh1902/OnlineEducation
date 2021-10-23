@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<TITLE> First Webpage</TITLE>
+</HEAD>
+<BODY>
+<H2><b>Marks sheet</b></H2>
+<table border='2'>
+<tr><th colspan='3'>SUBJECTS</th></tr>
+<tr>
+<th>Maths</th>
+<th>English</th>
+<th>Hindi</th>
+</tr>
+<tr>
+<td>80</td>
+<td>75</td>
+<td>82</td>
+</tr>
+<tr>
+<td>81</td>
+<td>72</td>
+<td>65</td>
+</tr>
+<tr>
+<td>83</td>
+<td>71</td>
+<td>60</td>
+</tr>
+</table>
+<h2><b>Registration Form</b></h2>
+<form>
+First Name: <input type="text" placeholder="Enter first name"><br>
+Last Name: <input type="text" placeholder="Enter last name"><br>
+Age: <input type="text" placeholder="Enter age"><br>
+Select gender: <input type="radio" name="gender">Male
+<input type="radio" name="gender">Female<br>
+Contact No.: <input type="text" placeholder="Enter contact no."><br>
+Username: <input type="text" placeholder="Enter username"><br>
+Password: <input type="password" placeholder="Enter password"><br>
+<button type="submit" value="submit">SUBMIT</button>
+</form>
+</BODY>
+</HTML>
